@@ -1,4 +1,38 @@
 body{
     background-color: black;
-    color: yellow;
+    color: white;
+    >
+</head>
+<body>
+
+    <header>
+        <h1>Stiglo nam je proljeće!</h1>
+        <p>Vrijeme buđenja prirode, sunčanih dana i šarenog cvijeća.</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>O Proljeću</h2>
+            <p>Proljeće je jedno od četiriju godišnjih doba. Na sjevernoj polutki traje od ožujka (oko 21. ožujka) do lipnja (oko 21. lipnja). To je razdoblje u kojem se dani produljuju, a temperature postaju ugodnije.</p>
+        </div>
+
+        <div class="card">
+            <h2>Glavne značajke</h2>
+            <ul>
+                <li><strong>Buđenje prirode:</strong> Drveće počinje listati, a trava ponovno postaje zelena.</li>
+                <li><strong>Vjesnici proljeća:</strong> Prvo cvijeće koje primjećujemo su visibabe, šafrani, jaglaci i ljubičice.</li>
+                <li><strong>Povratak ptica:</strong> Ptice selice vraćaju se iz toplijih krajeva i započinju pravljenje gnijezda.</li>
+                <li><strong>Toplije vrijeme:</strong> Zimski kaputi se mijenjaju za laganiju odjeću, a boravak na otvorenom postaje svakodnevica.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Zanimljivost</h2>
+            <p>Jeste li znali da na prvi dan proljeća (proljetni ekvinocij ili ravnodnevnica) dan i noć traju gotovo točno po 12 sati?</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Moja Web Stranica o Proljeću</p>
+    </footer>
 }
