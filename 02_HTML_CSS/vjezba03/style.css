@@ -23,6 +23,6 @@ ul li a:hover{
     color: brown;
 }
 
-li :active{
+li.active{
     background-color: bisque;
 }
