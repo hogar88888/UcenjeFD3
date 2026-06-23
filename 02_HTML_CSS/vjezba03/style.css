@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color:springgreen;
 }
 
 ul{
@@ -24,7 +24,7 @@ ul li a:hover{
 }
 
 li.active{
-    background-color: bisque;
+    background-color: darkorange;
 }
 main{
     display: grid;
@@ -35,6 +35,7 @@ main{
     ;
     row-gap: 2rem;
     column-gap: 2rem;
+    color: chartreuse;
 }
 
 .a{grid-area: a;}
