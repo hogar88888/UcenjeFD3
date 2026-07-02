@@ -1,8 +1,19 @@
 body{
     background-color:gainsboro;
 }
-h1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size:2px;
+div{
+    font-family:sans-serif ;
+    background-color: white;
+    max-width: 300px;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+h2{
+    color:#9c8b8b ;
+    font: size 1.1rem;
+
+}
     
 }

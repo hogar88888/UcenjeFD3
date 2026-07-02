@@ -1,30 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<body><link rel="stylesheet" href="povijest HTML.css">
-    
-</body><h1>
-    POVIJEST HTML-a
-</h1>
+    <povijest>Responzivni HTML & CSS Predložak</povijest HTML.CSS>
+    <style>
+        /* Reset i osnovni stilovi */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<h2>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
 
-OD JEDNOSTAVNOG TEKSTA DO MODERNOG WEB-a
-</h2>
-<h2>
+        /* Glavni kontejner komponente */
+        .card-container {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            max-width: 800px;
+            width: 100%;
+            display: flex;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
 
+        .card-container:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+        }
 
-</h2>
+        /* Dio sa slikom */
+        .card-image-box {
+            flex: 1;
+            min-width: 40%;
+            background-color: #e2e8f0;
+            position: relative;
+        }
 
-1989., CERN, Tim Berners-Lee
-<h2>
+        .card-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
 
+        /* Tekstualni sadržaj */
+        .card-content {
+            flex: 1.2;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
 
-</h2>
+        .card-tag {
+            align-self: flex-start;
+            background-color: #e0f2fe;
+            color: #0369a1;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 20px;
+            margin-bottom: 16px;
+            letter-spacing: 0.5px;
+        }
+
+        .card-title {
+            font-size: 1.75rem;
+            color: #1e293b;
+            margin-bottom: 12px;
+            line-height: 1.25;
+        }
+
+        .card-text {
+            color: #64748b;
+            font-size: 1rem;
+            margin-bottom: 24px;
+        }
+
+        /* Gumb za akciju */
+        .card-btn {
+            align-self: flex-start;
+            background-color: #0f172a;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: background-color 0.2s ease;
+        }
+
+        .card-btn:hover {
+            background-color: #334155;
+        }
+
+        /* Responzivnost za mobitele (ekran se prelama okomito) */
+        @media (max-width: 680px) {
+            .card-container {
+                flex-direction: column;
+            }
+            
+            .card-image-box {
+                height: 240px;
+                width: 100%;
+            }
+
+            .card-content {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
 <body>
-    
+
+    <article class="card-container">
+        
+        <div class="card-image-box">
+            <img class="card-image" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="Vizualni prikaz">
+        </div>
+
+        <div class="card-content">
+            <span class="card-tag">Kategorija</span>
+            <h2 class="card-title">Vaš Naslov Ovdje</h2>
+            <p class="card-text">
+                Ovo je primjer teksta koji možete zamijeniti svojim sadržajem iz privitka. HTML struktura je čista i semantička, dok moderni CSS osigurava responzivnost na svim uređajima (mobiteli, tableti, računala).
+            </p>
+            <a href="#" class="card-btn">Saznaj više</a>
+        </div>
+
+    </article>
+
 </body>
 </html>
+Kako prilagoditi kôd:
+Slika: U dijelu <img class="card-image" src="...", zamijeni link unutar src atributa lokalnom putanjom do tvoje slike (npr. src="moja-slika.png").
+
+Tekst: Unutar <h2> tagova upiši svoj naslov, a unutar <p> taga zalijepi svoj tekst.
+
+Ako želiš da kôd točno odgovara specifičnom dizajnu s tvoje slike, slobodno u sljedećoj poruci napiši tekst ili detaljnije opiši raspored (npr. "želim tri stupca", "slika treba biti u pozadini", "boja mora biti tamnoplava"), pa ću kôd u potpunosti prilagoditi tvojim uputama!
