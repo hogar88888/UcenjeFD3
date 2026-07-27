@@ -13,92 +13,72 @@ document.getElementById('btnRun').addEventListener('click', () => {
     if (task === '1') {
         // Početak 1. zadatka
         // 1. Zbrajanje brojeva: Zbroji A i B (konverzija u Number)
-        const aBroj = Number(a)
-        const bBroj = Number(b)
-        rezultat = aBroj + bBroj
-        
+
+    
         // Kraj 1. zadatka
     }
 
     if (task === '2') {
         // Početak 2. zadatka
         // 2. Konkatenacija: Spoji A i B kao tekst (String)
-        rezultat = a + b
+
 
         // Kraj 2. zadatka
-         
+        
     }
 
     if (task === '3') {
         // Početak 3. zadatka
         // 3. Aritmetika i zagrade: Izračunaj (A + B) * C - D
-    const aBroj = Number (a)
-    const bBroj = Number (b)
-    const cBroj = Number (c)
-    const dBroj = Number (d)
-        rezultat = (aBroj+bBroj)*cBroj-dBroj
+
 
         // Kraj 3. zadatka
-         
+        
     }
 
     if (task === '4') {
         // Početak 4. zadatka
         // 4. Modulo operator: Ostatak pri dijeljenju A s B (A % B)
 
-    const aBroj = Number(8)
-    const bBroj = Number (4)
-    rezultat = aBroj%bBroj
+
         // Kraj 4. zadatka
-         
+        
     }
 
     if (task === '5') {
         // Početak 5. zadatka
         // 5. Stroga jednakost: Jesu li A i B identični po vrijednosti i tipu (A === B)?
-const aBroj = Number(a)
-const bBroj = Number(b)
-rezultat = aBroj===bBroj
+
+
         // Kraj 5. zadatka
-         
+        
     }
 
     if (task === '6') {
         // Početak 6. zadatka
         // 6. Relacijski operatori: Je li zbroj A i B veći od umnoška C i D?
-const aBroj = Number(a)
-const bBroj = Number(b)
-const cBroj = Number(c)
-const dBroj = Number(d)
-rezultat = (aBroj+bBroj)>(cBroj*dBroj)
+
 
         // Kraj 6. zadatka
-         
+        
     }
 
     if (task === '7') {
         // Početak 7. zadatka
         // 7. Logički AND (&&): Je li A pozitivno I istovremeno B parno?
 
-    //let A = Number(a);
-    //let B = Number(b);
-
-    //if (A > 0 && B % 2 === 0)
-    //console.log("Uvjet je ispunjen: A je pozitivno I B je parno.")
-    //console.log("Uvjet NIJE ispunjen.")
 
         // Kraj 7. zadatka
-         
+        
     }
 
     if (task === '8') {
         // Početak 8. zadatka
         // 8. Logički OR (||): Je li barem jedno od polja C ili D prazan string?
 
-          //  C=== ili D=== 
 
         // Kraj 8. zadatka
-         
+        
     }
 
     if (task === '9') {
@@ -107,7 +87,7 @@ rezultat = (aBroj+bBroj)>(cBroj*dBroj)
 
 
         // Kraj 9. zadatka
-         
+        
     }
 
     if (task === '10') {
@@ -116,7 +96,7 @@ rezultat = (aBroj+bBroj)>(cBroj*dBroj)
 
 
         // Kraj 10. zadatka
-         
+        
     }
     if (task === '11') {
         // Početak 11. zadatka
