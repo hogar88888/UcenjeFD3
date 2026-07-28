@@ -107,10 +107,12 @@ const niz=[1,2,3,4,5,6,7]
     console.log('================================')
 
     const spavaj=(ms)=> new Promise(r=>setTimeout(r,ms))
+
+    async function odradi(){
     for(;;){
         document.getElementById('lista').innerHTML='<li>'+ (Math.floor(Math.random()*1000)+1) + '</li>'+
         document.getElementById('lista').innerHTML
-      break
+      //break
       await spavaj(500)
       }
     }
