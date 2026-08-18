@@ -1,5 +1,5 @@
-const provjeriTekst = (element, poruka ='Min 4 znaka')> {
-    if (!element || !element.value || element.value.trim().length < 4) {
+const provjeriTekst =  (element, poruka ='Min 4 znaka') => {
+    if (!element || element.value || element.value.trim().length < 4) {
         element.focus();
         throw new Error('Naziv projekta mora sadržavati barem 4 znaka.');
     }

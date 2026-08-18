@@ -9,7 +9,7 @@ obrazac.addEventListener('submit', (dogadaj) => {
     kontejnerPogreskeDolje.innerText = ''; 
     try {
         const konacniPodaci = {
-            mjesto projekta: provjeriTekst(document.getElementById('mjesto-projekta'),"Mjesto projekta minimalno 4 znaka")
+            mjestoProjekta: provjeriTekst(document.getElementById('mjesto-projekta'),"Mjesto projekta minimalno 4 znaka"),
             projekt: provjeriTekst(document.getElementById('naziv-projekta')),
             instance: provjeriCijeliBroj(document.getElementById('broj-instanci')),
             procesor: provjeriDecimalniBroj(document.getElementById('snaga-procesora')),
